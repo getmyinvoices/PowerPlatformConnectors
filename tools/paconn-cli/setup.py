@@ -52,7 +52,7 @@ setup(
         'docutils',
         'flake8',
         'future',
-        'knack~=0.5.1',
+        'knack~=0.14.0',
         'pytest',
         'pytest-xdist',
         'virtualenv',

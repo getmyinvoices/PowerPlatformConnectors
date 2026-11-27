@@ -62,8 +62,8 @@ setup(
         'azure-storage-blob>=2.1,<12.0'
     ],
     extras_require={
-        ":python_version<'3.0'": ['pylint~=1.9.2'],
-        ":python_version>='3.0'": ['pylint~=2.0.0']
+        ":python_version<'3.0'": ['pylint~=4.1.4'],
+        ":python_version>='3.0'": ['pylint~=4.1.4']
     },
     package_data={'paconn.config': ['*.*']},
     include_package_data=True,
